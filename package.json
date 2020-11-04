@@ -1,0 +1,24 @@
+{
+  "name": "git-sample",
+  "version": "1.0.0",
+  "description": "this is a sample git execution",
+  "main": "sample.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SK017/git-sample.git"
+  },
+  "author": "SK17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SK017/git-sample/issues"
+  },
+  "homepage": "https://github.com/SK017/git-sample#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
